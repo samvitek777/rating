@@ -1,0 +1,5 @@
+.content{
+    grid-area: content;
+    background: aquamarine;
+    height: 500px;
+}

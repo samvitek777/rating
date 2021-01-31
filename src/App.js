@@ -1,23 +1,18 @@
 import React from 'react';
 import './App.css';
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className='app-wrapper'>
-      <header className='header'>
-        <img src='img/logo.png'/>
-        <p>HEADER пидар</p>
-      </header>
-      <nav className='nav'>
-        <div>2021</div>
-        <div>2020</div>
-        <div>2019</div>
-      </nav>
-      <div className='content'>
-        MAIN CONTENT
+      <div className='app-wrapper'>
+          <Header/>
+          <Navigation/>
+          <Content/>
+          <Footer/>
       </div>
-      <footer className='footer'><a href='/'>samvitek@gmail.com 2021</a></footer>
-    </div>
   );
 }
 
