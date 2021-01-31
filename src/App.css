@@ -10,33 +10,3 @@
   margin: auto;
 }
 
-.header{
-  grid-area: header;
-  background: aqua;
-}
-
-.header img{
-  width: 100px;
-  height: 100px;
-}
-
-.header p{
-  display: inline;
-}
-
-.nav{
-  grid-area: nav;
-  background: blueviolet;
-}
-
-.content{
-  grid-area: content;
-  background: aquamarine;
-  height: 500px;
-}
-
-.footer{
-  grid-area: footer;
-  background: coral;
-}
-

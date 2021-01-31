@@ -1,0 +1,13 @@
+.header{
+    grid-area: header;
+    background: aqua;
+}
+
+.header img{
+    width: 100px;
+    height: 100px;
+}
+
+.header p{
+    display: inline;
+}
